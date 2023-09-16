@@ -20,7 +20,7 @@ app.register(generateAICompletionRoute);
 
 app
   .listen({
-    port: 3333,
+    port: 3334,
   })
   .then(() => {
     console.log("🚀 HTTP Server Running!");
